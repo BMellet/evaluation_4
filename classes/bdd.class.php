@@ -3,9 +3,9 @@
 class Database
 {
     static private $host = "localhost";
-    static private $dbname = "evaluation_4";
-    static private $dbuser = "root";
-    static private $dbpassword = "Mellet082217";
+    static private $dbname = "dbname";
+    static private $dbuser = "dbuser";
+    static private $dbpassword = "dbpassword";
     static private $db = NULL;   
     static public function getDB()
     { 
